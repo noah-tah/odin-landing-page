@@ -154,3 +154,17 @@ h1 {
     border-radius: 0.5em;
 }
 
+
+.bottom-container {
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-weight: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-credit {
+    
+}

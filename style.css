@@ -50,9 +50,8 @@ footer {
 }
 
 .header-text {
-    font-weight: extra-bold;
     color: #F9FAF8; 
-    font-size: 48px;
+    font-size: 40px;
 }
 
 .copyright {
@@ -78,8 +77,8 @@ footer {
 }
 
 .top-right-container {
-    width: 420px;
-    height: 150px;
+    width: 900px;
+    height: 175px;
     background-color: grey;
     display: flex;
     justify-content: center;
@@ -166,5 +165,4 @@ h1 {
 }
 
 .quote-credit {
-    
 }

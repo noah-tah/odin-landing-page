@@ -194,13 +194,6 @@ h1 {
     font-size: 24px; 
 }
 
-
-
-
-
-
-
-
 .top-page-container {
     display: flex;
     background-color: #1F2937;
@@ -211,5 +204,24 @@ h1 {
 
 .placeholder-img {
     width: 100%;
+}
+
+.call-to-action-parent-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action-container {
+    display: flex;
+    background-color: #3882F6;
+    margin: 50px;
+    border-radius: 0.5em;
+}
+
+.call-to-action-inner-container {
+    display: flex;
+    margin: 50px;
+    background-color: red;
 }
 

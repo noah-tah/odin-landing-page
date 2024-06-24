@@ -16,6 +16,11 @@
     text-decoration: none;
 }
 
+.header-container .header-links-top-right-container .header-link-text .header-links {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
 
 
 .top-container {
@@ -46,7 +51,7 @@ footer {
 
 .header-logo {
     color: #F9FAF8;
-    font-size: 20px;
+    font-size: 24px;
     padding-top: 16px;
     font-weight: bold;
 }
@@ -158,15 +163,43 @@ h1 {
 }
 
 
+
+
+
+
+
+
+
 .bottom-container {
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 50px;
 }
 
 .quote {
-    font-weight: 36px;
     font-style: italic;
+    font-weight: lighter;
     color: #1F2937;
+    display: flex;
+    font-size: 30px;
+    
 }
+
+.quote-credit {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 24px; 
+}
+
+
+
+
+
+
+
 
 .top-page-container {
     display: flex;
@@ -179,3 +212,4 @@ h1 {
 .placeholder-img {
     width: 100%;
 }
+

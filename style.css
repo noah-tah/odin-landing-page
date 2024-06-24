@@ -1,6 +1,7 @@
 .header-container {
     display: flex;
     justify-content: space-between;
+    background-color: #1F2937;
 }
 
 .header-links-top-right-container {
@@ -17,7 +18,7 @@
     margin-right: 35px;
 }
 
-header {
+.top-container {
     margin: 0;
     padding: 0;
     background-color: #1F2937;
@@ -148,7 +149,7 @@ h1 {
     text-align: center;
 }
 
-.empty-boxes{
+.knight-mini-images{
     height: 120px;
     width: 120px;
     border-width: 3px;
@@ -168,5 +169,6 @@ h1 {
     color: #1F2937;
 }
 
-.quote-credit {
+.top-page-container {
+    background-color: #1F2937;
 }

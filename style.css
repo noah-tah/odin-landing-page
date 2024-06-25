@@ -80,8 +80,8 @@ body {
     display: flex;
     padding-left: 50px;
     padding-right: 50px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     background-color: #3882F6;
     border-radius: 10px;
     color: #F9FAF8;
@@ -89,7 +89,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 30px;
-    width: 30%;
+    width: 20%;
 }
 
 .sign-up-link-header {
@@ -145,15 +145,15 @@ h1 {
     flex-direction: column;
     padding-left: 200px;
     padding-right: 200px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     align-items: center;
 }
 
 .quote {
     font-style: italic;
     font-weight: lighter;
-    color: #1F2937;
+    color:	#3b3b3b;
     display: flex;
     font-size: 30px;
     
@@ -177,7 +177,7 @@ h1 {
 .top-group-parent-container {
     display: flex;
     flex-direction: column;
-    max-width: 800px;
+    max-width: 1200px;
 
 }
 
@@ -283,5 +283,5 @@ h1 {
 .bottom-subcontainer {
     display: flex;
     flex-direction: column;
-    max-width: 1200px;
+    max-width: 900px;
 }

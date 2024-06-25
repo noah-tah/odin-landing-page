@@ -34,19 +34,13 @@ body {
     padding: 0;
 }
 
-footer {
-    margin: 0;
-    padding: 0;
-    background-color: #1F2937;
 
-}
 
 .flex-container {
     margin: 0;
     padding: 0;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
 
 .header-logo {
@@ -215,13 +209,49 @@ h1 {
 .call-to-action-container {
     display: flex;
     background-color: #3882F6;
-    margin: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     border-radius: 0.5em;
+    justify-content: space-between;
+    height: 150px;
 }
 
 .call-to-action-inner-container {
     display: flex;
     margin: 50px;
-    background-color: red;
+    gap: 100px;
+}
+.call-to-action-left-subcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 50px;
 }
 
+.call-to-action-right-subcontainer {
+    display:flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.copyright-footer-container {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    background-color: #1F2937;
+}
+
+.footer-button {
+    border-color: white;
+    border-width: 2px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding-left:20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.sign-up-link-footer {
+    color: white;
+    font-weight: bold;
+}
